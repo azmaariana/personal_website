@@ -1,13 +1,10 @@
-*
-	{
-		font-family: Century gothic
-	}
 body
 	{
-		background: #bfb5b2;
+		background:url(30.JPG);
 		background-repeat:no-repeat;
 		background-attachment: fixed;
   		background-size: cover;
+  		font-family: 'Roboto', sans-serif;
 	}
 ul
 	{
@@ -20,6 +17,7 @@ ul li
 	}
 ul li a
 	{
+		font-family: century gothic;
 		text-decoration: none;
 		color:	#2e4045;
 		padding: 5px 20px;
@@ -35,7 +33,13 @@ ul li a:hover
 ul li.active a
 	{
 		background-color: white;
-		color: 	#5e3c58;
+		color: #5e3c58;
+	}
+.logo img
+	{
+		float: left;
+		width: 120px;
+		height: auto;
 	}
 .main
 	{
@@ -45,17 +49,49 @@ ul li.active a
 	{
 		position: absolute;
 		left: 50%;
-		top:40%;
+		top: 40%;
 	}
 h1
 	{
-		color:#8d5524;
-		background-color: #f1c27d;
-		font-family: cursive;
+		color:#5e3c58;
+		background-color: none;
+		font-family: 'Bungee', cursive;
 		float: left;
+		font-size: 30px;
 
 	}
-h4
+h2
 	{
+		text-align: left;
+		color: black;
+		font-size: 28px;
+		font-family: 'Bungee', cursive;
+	}
+h3
+	{
+		color: #5e3c58;
+		font-family: 'Roboto', sans-serif;
+		background-color: lightgrey;
+	}
+.container
+	{	
+		max-width: 1200px;
+		margin: auto;
+		background:lightgrey;
+		overflow: auto;
+		background: rgba(200,200,200,.5);
 		
 	}
+.gallery
+	{
+		margin: 4px;
+		border: 1px solid #ccc;
+		float: left;
+		width: 390px;
+	}
+.gallery img
+	{
+		width: 390px;
+		height:300px;
+	}
+
